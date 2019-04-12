@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import { Provider } from 'react-redux';
-import AppContainer, { NavigationActions } from './AppContainer';
+import Routers, { NavigationActions } from './src/routers';
 import configureStore from './src/configureStore';
 
 const store = configureStore();
@@ -24,7 +24,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <AppContainer
+        <Routers
           ref={nav => this.navigator = nav}
         />
       </Provider>
