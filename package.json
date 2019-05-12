@@ -39,6 +39,7 @@
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.53.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "react-test-renderer": "16.8.3",
     "typescript": "^3.4.1"
   },
